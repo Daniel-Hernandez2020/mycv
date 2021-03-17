@@ -1,0 +1,227 @@
+*{
+
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+ body{
+
+  
+    display: flex;
+    justify-content: center;
+    background-color: #282828;
+    align-items: center;
+    
+ }
+
+ 
+ 
+ .container{
+
+        margin-top: 15px;
+        flex-basis: 800px;
+        height: 900px;
+        background-color: white;
+        display: flex;
+        font-family: 'Oswald', sans-serif;
+        
+ }
+
+ .clip-path{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #983f34;
+
+ }
+
+ img{
+
+  width: 200px;
+  height: 200px;
+
+  /*box-shadow: 0 0 0 30px #983f34;*/
+
+  clip-path: circle(80px);
+
+}
+
+.aside{
+        flex-basis: 35%;
+        padding-top: 30px;
+        background-color: #c95d52;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+ }
+
+.main{
+
+   flex-basis: 60%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 25px;
+    padding-left: 60px;
+    color: #313642;
+
+ }
+
+.fa-briefcase{
+
+    padding-right: 0px;
+    font-size: 30px;
+    position: relative;
+    right: 15px;
+
+ }
+
+.fa-graduation-cap{
+
+   padding-right: 0px;
+   font-size: 29px;
+   position: relative;
+   right: 15px;
+
+ }
+
+.profile-pic{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+ }
+
+.aside_title{
+
+  margin-top: 20px;
+  font-size: 1.5em; 
+  text-transform: uppercase; 
+
+}
+
+.profile-pic__description{
+
+  margin-top: 10px;
+
+ }
+
+.profile-description{
+
+     width: 80%;
+   margin-top: 30px;
+    text-align: center;
+
+ }
+
+ ul{
+    margin-top: 10px;
+    padding-left:0;
+    list-style: none;
+    
+    
+ }
+
+ li{
+
+   width: 90%; 
+   
+
+ }
+
+.skills{
+  
+   display: flex;
+   padding-top: 10px;
+   flex-direction: column;
+   align-items: center;
+   
+ }
+
+.contact{
+
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.article
+ {
+      /*background-color: blueviolet;*/
+      position: relative;
+      
+      
+
+
+ }
+
+.article__title{
+
+  text-transform: uppercase;
+  font-size: 1.2em;
+
+ }
+
+.article__content--bottom{
+
+      padding-bottom: 20px;
+
+ }
+
+.article__title::before{
+
+   content: "";
+   display: inline-block;
+   width: 15px;
+   height: 15px;
+   background-color: #313642;
+   border-radius: 50%;
+   position: relative;
+   right: 5px;
+   
+
+ }
+
+ .article__subtitle,
+ .article__subtitle--small,
+ .article__content--bottom,
+ .article__content{
+
+      border-left: 2px solid #313642;
+      padding-left: 15px;
+      
+ }
+
+ .article__subtitle--small{
+
+   color: #818183;
+   font-size: 1em;
+
+ }
+
+ .section-education{
+
+    margin-top: 30px;
+
+ }
+
+ .section-education__title,
+ .section-jobs__title{
+
+    font-size: 1.5em;
+
+ }
+
+ .section-jobs__title,
+ .section-education__title{
+
+      margin-bottom: 25px;
+
+ }
